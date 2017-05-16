@@ -1,4 +1,4 @@
-# beer-test
+#  Teste Moip
 
 > Um projeto feito com Vue.js
 
@@ -28,7 +28,7 @@ npm run build
 npm run build --report
 ```
 
-# PARA EXECUCAO DOS TESTES UNITARIOS E E2E
+# Para execução dos testes unitários e e2e
 
 ``` bash
 
