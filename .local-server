@@ -1,0 +1,14 @@
+#!/usr/bin/expect -f
+send_user "================================================\n"
+send_user "            BAIXANDO PACOTES COM YARN           \n"
+send_user "================================================\n"
+spawn yarn
+interact
+send_user "================================================\n"
+send_user "            EXECUTANDO O SERVIDOR LOCAL          \n"
+send_user "================================================\n"
+spawn yarn run dev
+interact
+send_user "================================================\n"
+send_user "              SERVIDOR EM EXECUCAO              \n"
+send_user "================================================\n"
